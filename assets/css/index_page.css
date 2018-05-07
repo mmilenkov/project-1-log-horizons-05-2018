@@ -1,17 +1,17 @@
 body
 {
-max-width: 1800px;
 margin: 0; 
 background-image: url(../images/background.jpg);
 background-repeat: no-repeat;
-background-attachment:scroll;
+background-attachment:scroll;	
+width: 100%;
 }
+
 .container
 {
-
 margin: 0% 3% 0% 3%;
 justify-content: center;
-width: 100%;
+width: 90%;
 display: inline-grid;
 grid-template-columns: 2fr;
 grid-template-rows: 5fr;	
@@ -42,8 +42,8 @@ grid-row-gap: 1%;
 
 #chatbox
 {
-	margin-top: 4.3%;
 	grid-area: chatbox;
+
 }
 
 #navBar
